@@ -1,0 +1,16 @@
+# Iniciando o Git
+git init 
+
+# Verificando Status de Arquivos
+git status
+
+# Adicionar todos os arquivos ou especifico
+git add . 
+git add nome
+
+# Comiit
+git commit -m "Mensagem"
+
+# Subindo para o GitHub
+git remote add origin https://github.com/USUARIO_NO_GIT/NOME_DO_REPOSITORIO.git
+git push -u origin master
