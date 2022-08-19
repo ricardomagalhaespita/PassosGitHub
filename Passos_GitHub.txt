@@ -5,12 +5,17 @@ git init
 git status
 
 # Adicionar todos os arquivos ou especifico
-git add . 
-git add nome
+git add . // todos os arquivos
+git add nome // arquivo especifico
 
-# Comiit
-git commit -m "Mensagem"
+# Comit
+git commit -m "Mensagem" // first comit
 
 # Subindo para o GitHub
-git remote add origin https://github.com/USUARIO_NO_GIT/NOME_DO_REPOSITORIO.git
-git push -u origin master
+git remote add origin https://github.com/USUARIO_NO_GIT/NOME_DO_REPOSITORIO.git // link do repositorio
+git push -u origin master // envia os arquivos para o repositorio
+
+
+# Comandos necessarios caso ocorra o erro "Please tell me who you are"
+git config --global user.email "email do git"
+git config --global user.name "username do git"
