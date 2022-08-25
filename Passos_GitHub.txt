@@ -19,3 +19,7 @@ git push -u origin master // envia os arquivos para o repositorio
 # Comandos necessarios caso ocorra o erro "Please tell me who you are"
 git config --global user.email "email do git"
 git config --global user.name "username do git"
+
+
+# Clonando um repositório
+Folder > Right click > Git Bash Here > git clone LINK .
