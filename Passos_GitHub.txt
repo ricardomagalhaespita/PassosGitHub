@@ -9,7 +9,7 @@ git add . // todos os arquivos
 git add nome // arquivo especifico
 
 # Comit
-git commit -m "Mensagem" // first comit
+git commit -m "Mensagem" // first commit
 
 # Subindo para o GitHub
 git remote add origin https://github.com/USUARIO_NO_GIT/NOME_DO_REPOSITORIO.git // link do repositorio
