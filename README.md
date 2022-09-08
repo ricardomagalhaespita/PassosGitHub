@@ -1,0 +1,26 @@
+# Iniciando o Git
+git init 
+
+# Verificando Status de Arquivos
+git status
+
+# Adicionar todos os arquivos ou especifico
+git add . // todos os arquivos
+git add nome // arquivo especifico
+
+# Comit
+git commit -m "Mensagem" // first commit
+
+# Subindo para o GitHub
+git remote add origin https://github.com/USUARIO_NO_GIT/NOME_DO_REPOSITORIO.git // link do repositorio
+git push -u origin master // envia os arquivos para o repositorio
+git push -f origin master // força o envio
+
+
+# Comandos necessarios caso ocorra o erro "Please tell me who you are"
+git config --global user.email "email do git"
+git config --global user.name "username do git"
+
+
+# Clonando um repositório
+Folder > Right click > Git Bash Here > git clone LINK 
