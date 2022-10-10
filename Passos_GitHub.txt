@@ -24,3 +24,7 @@ git config --global user.name "username do git"
 
 # Clonando um repositório
 Folder > Right click > Git Bash Here > git clone LINK .
+
+# Alterando o repositório
+git remote rm origin
+git remote add origin novo_repositório_a_ser_apontado.git
